@@ -18,15 +18,15 @@
     sudo apt-get install -y build-essential
 ```
 
-    再重新安裝Cloud9
 ```linux
+再重新安裝Cloud9
     sudo apt-get update 
     sudo apt-get install c9-core-installer --reinstall 
     sudo reboot
 ```
 
-    如果要更新系統套件使用
 ```linux
+如果要更新系統套件使用
     sudo apt-get update
     sudo apt-get upgrade 
 ```
