@@ -1,4 +1,4 @@
-# 拿到開發板第一件事
+# 拿到開發板第一件要做的事
 
     Beaglebone開發板相對於Arduino、樹莓派是比較冷門
     當初會選擇BeagleBone Green Wireless是原因它基於Linux系統
