@@ -1,13 +1,13 @@
 # 拿到開發板第一件事
 
-Beaglebone開發板相對於Arduino、樹莓派是比較冷門
-當初會選擇BeagleBone Green Wireless是原因它基於Linux系統
-內建Wifi以及Cloud9開發環境，使用Node Js來做IoT相關項目是非常合適的
+  Beaglebone開發板相對於Arduino、樹莓派是比較冷門
+  當初會選擇BeagleBone Green Wireless是原因它基於Linux系統
+  內建Wifi以及Cloud9開發環境，使用Node Js來做IoT相關項目是非常合適的
 
-拿到BBGW首先就是環境配置，到官網下載最新韌體，將韌體寫入micro SD
-再用micro SD開機就能更新韌體。更新完韌體，接下來是與電腦連線
-使用手機連到BBGW AP，自動進入wifi設定網頁，BBGW連上網路會得到一組IP
-電腦使用Chrome鍵入網址http://BBGW IP:3000，就能進入Cloud9開發環境
+  拿到BBGW首先就是環境配置，到官網下載最新韌體，將韌體寫入micro SD
+  再用micro SD開機就能更新韌體。更新完韌體，接下來是與電腦連線
+  使用手機連到BBGW AP，自動進入wifi設定網頁，BBGW連上網路會得到一組IP
+  電腦使用Chrome鍵入網址http://BBGW IP:3000，就能進入Cloud9開發環境
 
 在Cloud9開啟終端機操作debian
 
