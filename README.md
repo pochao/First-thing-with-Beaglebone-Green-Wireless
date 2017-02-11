@@ -9,6 +9,20 @@
     使用手機連到BBGW AP，自動進入wifi設定網頁，BBGW連上網路會得到一組IP
     電腦使用Chrome鍵入網址http://BBGW IP:3000，就能進入Cloud9開發環境
 
+```linux
+另一個設定wifi的方式 
+    sudo connmanctl technologies
+    sudo connmanctl enable wifi
+    sudo connmanctl services
+    會列出可連線之wifi，記下wifi_2cf7f1062b04_5461626c652d322e3447_managed_psk
+    sudo nano /var/lib/connman/Table-2.4G.config
+    建立一個設定檔，內容如下
+    [service_wifi_2cf7f1062b04_5461626c652d322e3447_managed_psk]
+    Type = wifi
+    Name = Table-2.4G
+    Passphrase = My password
+    存檔就會自動連線，可用sudo connmanctl technologies確認
+```
     
 ```linux
 在Cloud9開啟終端機操作debian
