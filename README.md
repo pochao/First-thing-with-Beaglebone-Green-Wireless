@@ -47,3 +47,9 @@
 
     注意:更新至Node V6.x會導致bonescript版本不符
     接下來就可以在Cloud9直接寫程式做項目了
+
+```linux
+遠端桌面連線方式
+    vncserver -geometry 1280x800 :1
+    使用vncviewer輸入192.168.7.2:5901
+```
