@@ -23,7 +23,12 @@
     Passphrase = My password
     存檔就會自動連線，可用sudo connmanctl technologies確認
 ```
-    
+
+```linux
+修改時區
+    sudo dpkg-reconfigure tzdata
+```
+
 ```linux
 在Cloud9開啟終端機操作debian
 更新Node版本至V6.x
