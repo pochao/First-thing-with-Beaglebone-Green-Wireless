@@ -25,6 +25,10 @@
 ```
 
 ```linux
+啟用UART-2(內建grove cape)，在/boot/uEnv.txt加入cape_enable=bone_capemgr.enable_partno=BB-UART2
+```
+
+```linux
 修改時區
     sudo dpkg-reconfigure tzdata
 ```
