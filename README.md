@@ -29,6 +29,11 @@
 ```
 
 ```linux
+列出i2c裝置(BBGW內建為Bus 1) 
+    i2cdetect -y -r 1
+```
+
+```linux
 修改時區
     sudo dpkg-reconfigure tzdata
 ```
