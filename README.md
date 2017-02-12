@@ -29,8 +29,8 @@
 ```
 
 ```linux
-列出i2c裝置(BBGW內建為Bus 1) 
-    i2cdetect -y -r 1
+列出i2c裝置(BBGW內建為i2c-2) 
+    i2cdetect -y -r 2
 ```
 
 ```linux
