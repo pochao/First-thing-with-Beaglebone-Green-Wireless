@@ -1,0 +1,23 @@
+//lsusb
+//v4l2-ctl --all
+//v4l2-ctl --set-fmt-video=width=1920,height=1080,pixelformat=1
+
+import cv2
+from datetime import datetime, timedelta
+
+nextCapture = datetime.now()
+webcam = cv2.VideoCapture(0)
+webcam.set(cv2.cv.CV_CAP_PROP_FRAME_WIDTH,320)
+webcam.set(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT,240)
+
+//讓webcam有開機時間
+for j in range(1,15):
+    img = webcam.read()[1]
+
+i=1
+while True:
+    if nextCapture <= datetime.now():
+        nextCapture = nextCapture + timedelta(seconds=1)
+        img = webcam.read()[1]
+        cv2.imwrite('./img'+str(i)+'.png', img)
+        i+=1
