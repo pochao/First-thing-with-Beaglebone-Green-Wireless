@@ -1,3 +1,5 @@
+//i2cdetect -l
+//i2cdetect -y -r 2
 //使用LCDAssistant軟體製作影像array
 //https://drive.google.com/open?id=0B5agTmAUCDjKRjU3X0syWnBWUUU
 
