@@ -1,8 +1,6 @@
-```linux
-lsusb
-v4l2-ctl --all
-v4l2-ctl --set-fmt-video=width=1920,height=1080,pixelformat=1
-```
+//lsusb
+//v4l2-ctl --all
+//v4l2-ctl --set-fmt-video=width=1920,height=1080,pixelformat=1
 
 import cv2
 from datetime import datetime, timedelta
