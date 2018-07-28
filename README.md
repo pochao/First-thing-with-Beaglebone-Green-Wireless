@@ -10,7 +10,7 @@
     電腦使用Chrome鍵入網址http://BBGW IP:3000，就能進入Cloud9開發環境
 
 ```linux
-另一個設定wifi的方式 
+另一個設定wifi的方式,用電腦登入bbgw wifi,密碼BeagleBone (sudo密碼temppwd)
     sudo connmanctl technologies
     sudo connmanctl enable wifi
     sudo connmanctl services
