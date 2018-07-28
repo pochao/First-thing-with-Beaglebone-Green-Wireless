@@ -22,6 +22,7 @@
     Name = Table-2.4G
     Passphrase = My password
     存檔就會自動連線，可用sudo connmanctl technologies確認
+    http://beaglebone.local
 ```
 
 ```linux
