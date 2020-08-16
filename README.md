@@ -27,6 +27,8 @@
 
 ```linux
 啟用UART-2(內建grove cape)，在/boot/uEnv.txt加入cape_enable=bone_capemgr.enable_partno=BB-UART2
+config-pin P9.21 uart
+config-pin P9.22 uart
 ```
 
 ```linux
